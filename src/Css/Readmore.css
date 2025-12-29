@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.read-more{
+    width: 100%;
+    min-width: 500px;
+}
+.breadcrum{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #717275;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.breadcrum h1{
+    font-size: 28px;
+    font-family: "josefin Sans",sans-serif;
+    color: rgb(125, 2, 2);
+}
+.breadcrum-nav{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.breadcrum-nav p{
+    font-size: 18px;
+    font-family: "josefin Sans",sans-serif;
+}
+.breadcrum-nav div{
+    width: 1px;
+    height: 15px;
+    background-color: #222222;
+}
+.product-enquiry{
+    display: flex;
+    width: 100%;
+    padding: 30px 100px;
+    height: 100%;
+    background-color: antiquewhite;
+    gap: 20px;
+}
+.product-image{
+    width: 500px;
+    height: 400px;
+}
+.product-image img {
+    width: 100%;
+    height: 100%;
+}
+.product-description{
+    
+}
+.detail-product{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start;
+    background-color: #ffff;
+}
+.detail-product h1{
+    font-size: 28px;
+    color: chocolate;
+    font-family: "josefin Sans",sans-serif;
+    padding: 10px;
+}
+.detail-product p span{
+    color: red;
+    font-size: 18px;
+    font-family: "josefin Sans",sans-serif;
+}
+.detail-product p {
+    color: #222222;
+    font-size: 18px;
+    font-family: "josefin Sans",sans-serif;
+    padding: 10px;
+}
+.price{
+    color:#717275;
+    font-size: 18px;
+    font-family: "josefin Sans",sans-serif;
+}
+.detail-product button{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #190b32;
+    color: white;
+    border: none;
+}
+.share{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    gap: 10px;
+}
+.share i {
+    color: #222222;
+    font-size: 25px;
+}
+.share i:hover{
+    color: brown;
+}
+.realated-products{
+    width: 100%;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.realated{
+    font-size: 32px;
+    font-family: "josefin Sans",sans-serif;
+    padding:10px;
+    background-color: #222222;
+    color: #ffff;
+    margin-top: 20px;
+}
+.products-card{
+    width: 350px;
+    height: 350px;
+    box-shadow: 2px 4px 6px 2px rgba(0,0,0,0.1);
+    position: relative;
+}
+.products-card img {
+    width: 100%;
+    height: 300px;
+}
+.products-card p{
+    padding: 10px;
+    font-size: 20px;
+    font-family: "josefin Sans",sans-serif;
+}
+.readmore-butt{
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background: rgba(0,0,0,0.1);
+    z-index: 2;
+}
+.readmore-butt button{
+    background-color: #222222;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+}
+.products-card:hover .readmore-butt{
+    display: flex;
+}
+.newloading{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background: rgba(0,0,0,0.6);
+    z-index: 9;
+}
+.newcircle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid black;
+    z-index: 10;
+}
+
+

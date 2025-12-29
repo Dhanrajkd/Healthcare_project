@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.breadcrum-head{
+    width: 100%;
+    height: 150px;
+    background-color: #5a5a5a;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+.breadcrum-head h1{
+    padding: 10px;
+    color:#ffa500 ;
+}
+.bread-crum{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.bread-crum a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "josefin Sans",sans-serif;
+}
+.bread-crum p{
+    font-size: 16px;
+    font-family: "josefin Sans",sans-serif;
+}
+.contact-us{
+    width: 100%;
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+}
+.info-container{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    padding: 20px 100px;
+}
+.contact-us-info{
+    width: 45%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info-card{
+    display: flex;
+    width: 450px;
+    height: 280px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+}
+.info-card i {
+    font-size: 50px;
+    color: #ffa500;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5a5a5a;
+}
+.address-bar{
+    width: 300px;
+}
+.address-bar h1 {
+    font-size: 28px;
+    font-family: "josefin Sans",sans-serif;
+    padding: 10px 0px;
+    color: rebeccapurple;
+}
+.address-bar p{
+    font-size: 18px;
+    font-family: "josefin Sans",sans-serif;
+    padding: 10px 0px;
+    color: blue;
+    line-height: 20px;
+}
+.contact-info-right{
+    width: 55%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.contact-info-right h1{
+    font-size: 28px;
+    font-family: "josefin Sans",sans-serif;
+    color: #ffa500;
+}
+.input1{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+}
+.input1 div{
+    width: 300px;
+    height: 50px;
+    background-color: #a4a4a4;
+    display: flex;
+    align-items: center;
+}
+.input1 input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.select{
+    width: 100%;
+    display: flex;
+}
+.select select{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+.mail-input{
+    width: 100%;
+}
+.mail-input input{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    font-size: 20px;
+    color: black;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    outline: none;
+    font-size: 20px;
+}
+button {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    color: #ffff;
+    background-color: #ffa500;
+    outline: none;
+}

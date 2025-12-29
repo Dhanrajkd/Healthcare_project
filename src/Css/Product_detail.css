@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.detail-products{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.breadcrum-head{
+    width: 100%;
+    height: 300px;
+    background-color: #5a5a5a;
+}

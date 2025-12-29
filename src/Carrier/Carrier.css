@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carrier{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.openings{
+    width: 100%;
+    height: 50px;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.openings div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    animation: move-div 10s linear infinite;
+}
+@keyframes move-div{
+    0%{transform:translateX(0) ;}
+    100%{transform: translateX(-100%);}
+}
+.openings p{
+    font-size: 32px;
+    color: #ffff;
+}

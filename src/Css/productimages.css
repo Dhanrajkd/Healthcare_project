@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.product-images{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.images-breadcrum{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+    background-color: #222222;
+    justify-content: center;
+}
+.breadcrun-title{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+     gap: 10px;
+     align-items: center;
+}
+.images-breadcrum h1{
+    font-size: 28px;
+    color: #fff;
+    font-family: "josefin Sans",sans-serif;
+}
+.breadcrun-title div{
+    width: 2px;
+    height: 25px;
+    background-color: #fff;
+   
+}
+.breadcrun-title p{
+    font-size: 18px;
+    color: #fff;
+    font-family: "josefin Sans",sans-serif;
+}
+.img-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    justify-content: center;
+    gap: 30px;
+}
