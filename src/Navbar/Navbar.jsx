@@ -16,7 +16,7 @@ const Navbar = () => {
                 <a href="+91 7559325548">
                     <i className='bi bi-telephone-fill'></i> +91 7559325548
                 </a>
-                <a href="">
+                <a href="info@roobaswastha.com">
                     <i className='bi bi-envelope'></i>
                     info@roobaswastha.com
                 </a>

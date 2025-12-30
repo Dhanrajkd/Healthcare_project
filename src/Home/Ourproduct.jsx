@@ -1,23 +1,10 @@
 import React, { useContext } from 'react'
 import '../Css/Ourproduct.css'
-import tab1 from '../images/tablets/tab-1.png'
-import tab2 from '../images/tablets/tab-2.png'
-import tab3 from '../images/tablets/tab-3.png'
-import tab4 from '../images/tablets/tab-4.png'
-import tab5 from '../images/tablets/tab-5.png'
 import { Listcomponents } from '../Parentcomponent/Parentcontext'
 
 
 const Ourproduct = () => {
   const{products}=useContext(Listcomponents)
-  const productsname=[
-    {image:tab1,name:"tab1"},
-    {image:tab2,name:"tab2"},
-    {image:tab3,name:"tab3"},
-    {image:tab4,name:"tab4"},
-    {image:tab5,name:"tab5"},
-  ]
-
   return (
     <div className='ourproduct-container'>
         <div className='our-product-info'>

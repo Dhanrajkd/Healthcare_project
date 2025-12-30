@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './Navbar/Navbar';
 import Navlink from './Navlink/Navlink';
-import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import { Route,Routes } from 'react-router-dom';
 import Footer from './Footer/Footer';
 import Home from './Home/Home';
 import Aboutus from './aboutus/Aboutus';
