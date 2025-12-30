@@ -11,7 +11,7 @@ const Navlink = ({children}) => {
     useEffect(()=>{
       setlinks("home")
     },[])
-    const {id}=useParams()
+  
 
     const [links,setlinks]=useState("")
     const [menuopen,setmenuopen]=useState("false")
@@ -46,7 +46,7 @@ const Navlink = ({children}) => {
               <div className='product-list'>
                   <div className='list-links'>
                     <div className='list-main'>
-                        <a href="">Productlist</a>
+                        <a href="info@roobaswastha.com">Productlist</a>
                         <i className='bi bi-chevron-right'></i>
                     </div>
                     <div className='side-view'>
@@ -58,7 +58,7 @@ const Navlink = ({children}) => {
                     </div>
                   </div>
                   <div className='list-links-image'>
-                    <a href=""><Link to="/product_images">Productimage</Link></a>
+                    <a href="info@roobaswastha.com"><Link to="/product_images">Productimage</Link></a>
                     <i className='bi bi-chevron-right'></i>
                   </div>
               </div>

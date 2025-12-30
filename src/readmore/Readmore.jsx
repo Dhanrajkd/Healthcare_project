@@ -1,8 +1,7 @@
 import React, { useContext,useState } from 'react'
 import '../Css/Readmore.css'
 import { Listcomponents } from '../Parentcomponent/Parentcontext'
-import { Link, useNavigate, useParams } from 'react-router-dom'
-import { Navigate } from 'react-router-dom'
+import {useNavigate, useParams } from 'react-router-dom'
 
 const Readmore = () => {
   const navigate=useNavigate()
@@ -21,7 +20,7 @@ const Readmore = () => {
     <div className='read-more'>
 
       {products.filter(item=>item._id===id).
-      map((item,ind)=>(
+      map((item)=>(
         <div className='breadcrum'>
           <h1>{item.name}</h1>
           <div className='breadcrum-nav'>
@@ -32,8 +31,8 @@ const Readmore = () => {
         </div>
       ))
       }
-       {products.filter(item=>item._id===id).
-       map((item,ind)=>{
+       {products.filter(item=>item._id===id)
+       .map((item,ind)=>{
         return (
           <div className='product-enquiry' key={ind}>
               <div className='product-image'>
@@ -46,10 +45,10 @@ const Readmore = () => {
                   <button>Enquiry Now</button>
                   <div className="share">
                     <h1>Share:</h1>
-                      <a href=""><i className='bi bi-linkedin'></i></a>
-                      <a href=""><i className='bi bi-whatsapp'></i></a>
-                      <a href=""><i className='bi bi-instagram'></i></a>
-                      <a href=""><i className='bi bi-facebook'></i></a>
+                      <a href="info@roobaswastha.com"><i className='bi bi-linkedin'></i></a>
+                      <a href="info@roobaswastha.com"><i className='bi bi-whatsapp'></i></a>
+                      <a href="info@roobaswastha.com"><i className='bi bi-instagram'></i></a>
+                      <a href="info@roobaswastha.com"><i className='bi bi-facebook'></i></a>
                   </div>
               </div>
           </div>
