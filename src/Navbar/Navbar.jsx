@@ -22,10 +22,10 @@ const Navbar = () => {
                 </a>
             </div>
             <div className='media-link'>
-                <a href=""><i className='bi bi-linkedin'></i></a>
-                <a href=""><i className='bi bi-whatsapp'></i></a>
-                <a href=""><i className='bi bi-instagram'></i></a>
-                <a href=""><i className='bi bi-facebook'></i></a>
+                <a href="linkedin"><i className='bi bi-linkedin'></i></a>
+                <a href="whatsapp"><i className='bi bi-whatsapp'></i></a>
+                <a href="instagram"><i className='bi bi-instagram'></i></a>
+                <a href="facebook"><i className='bi bi-facebook'></i></a>
             </div>
        </div>
       {loading ?(
