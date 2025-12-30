@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Navlink.css'
 import logo from '../images/Logo.png'
 import {createContext} from 'react'
-import {Link, useParams} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import Component from "../Components/Component"
 
 export const CompContext=createContext()
@@ -12,7 +12,6 @@ const Navlink = ({children}) => {
       setlinks("home")
     },[])
   
-
     const [links,setlinks]=useState("")
     const [menuopen,setmenuopen]=useState("false")
 

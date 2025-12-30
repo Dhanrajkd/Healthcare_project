@@ -19,8 +19,8 @@ const Readmore = () => {
   return (
     <div className='read-more'>
 
-      {products.filter(item=>item._id===id).
-      map((item)=>(
+      {products.filter(item=>item._id===id)
+      .map((item)=>(
         <div className='breadcrum'>
           <h1>{item.name}</h1>
           <div className='breadcrum-nav'>
@@ -58,8 +58,8 @@ const Readmore = () => {
         <h1 className='realated'>Realated products</h1>
        <div className='realated-products'>
           
-          {products.filter(item=>item.category===category).
-              map((item,ind)=>{
+          {products.filter(item=>item.category===category)
+              .map((item,ind)=>{
                 if(item._id!==id){
                   return (
                     <div className='products-card' key={ind}>
