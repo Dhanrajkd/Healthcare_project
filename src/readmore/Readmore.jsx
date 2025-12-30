@@ -57,22 +57,21 @@ const Readmore = () => {
        }
         <h1 className='realated'>Realated products</h1>
        <div className='realated-products'>
-          
-          {products.filter(item=>item.category===category)
-              .map((item,ind)=>{
-                if(item._id!==id){
-                  return (
-                    <div className='products-card' key={ind}>
-                      <img src={item.image} alt="" />
-                      <p>{item.name}</p>
-                      <div className='readmore-butt'>
-                       <button onClick={()=>handleclick(item._id,item.category)}>Readmore</button>
-                      </div>
-                  </div>
-                  )
-                }
-              })
-            }
+          {
+        products
+          .filter(item => item.category === category && item._id !== id)
+          .map(item => (
+            <div className="products-card" key={item._id}>
+              <img src={item.image} alt={item.name} />
+              <p>{item.name}</p>
+              <div className="readmore-butt">
+                <button onClick={() => handleclick(item._id, item.category)}>
+                  Read more
+                </button>
+              </div>
+            </div>
+          ))
+        }   
        </div>
        {newloading ? (
         <div className='newloading'>
