@@ -8,7 +8,7 @@ const Parentcontext = ({children}) => {
     useEffect(()=>{
       let fetchdata=async()=>{
         try{
-          let responce=await fetch("http://localhost:4000/getproducts")
+          let responce=await fetch("https://healthcare-project-backend-t5mf.onrender.com/getproducts")
           let data=await responce.json()
           console.log(data);
           setproduct(data.data)
