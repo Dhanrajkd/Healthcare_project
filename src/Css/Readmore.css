@@ -177,5 +177,63 @@
     border: 3px solid black;
     z-index: 10;
 }
+@media(max-width:900px){
+    .product-enquiry{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .product-image{
+        width: 450px;
+        height: 350px;
+    }   
+    .product-image img {
+        width: 100%;
+        height: 100%;
+    }
+    .detail-product{
+        width: 450px;
+        height: 350px;
+    }
+  .realated-products{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}
+@media(max-width:500px){
+    .product-enquiry{
+        width: 350px;
+        padding: 10px;
+    }
+    .product-image{
+        width: 100%;
+        height: 100%;
+    }   
+    .product-image img {
+        width: 100%;
+        height: 100%;
+    }
+    .detail-product{
+        width: 100%;
+        height: 100%;
+    }
+    .breadcrum{
+        width: 350px;
+        height: 60px;
+    }
+    .breadcrum h1{
+        font-size: 18px;
+    }
+     .realated-products{
+        width: 350px;
+    }
+    .realated{
+        width: 350px;
+        font-size: 18px;
+        padding:10px;
+    }
+}
 
 
