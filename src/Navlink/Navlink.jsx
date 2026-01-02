@@ -93,7 +93,7 @@ const Navlink = ({children}) => {
                   </div>
                   <ul className='sidemenu-links'>
                       <li><Link>Home</Link></li>
-                      <li><Link>Aboutus</Link></li>
+                      <li><Link to="/about">Aboutus</Link></li>
                       <li>
                         <Link to="/product_images">Product</Link>
                         </li>

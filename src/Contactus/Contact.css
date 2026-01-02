@@ -155,3 +155,92 @@ button {
     background-color: #ffa500;
     outline: none;
 }
+@media (max-width:1100px) {
+    .icon{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #5a5a5a;
+    }
+    .info-container{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        padding: 20px;
+        gap: 50px;
+    }
+    .info-card{
+        display: flex;
+        width: 400px;
+        height: 200px;
+    }
+    .contact-info-right{
+        width: 50%;
+        height: 600px;
+    }
+    .input1{
+        width: 100%;
+    }
+    .select{
+        width: 100%;
+    }
+}
+@media (max-width:950px) {
+     .info-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .contact-us-info{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+     .info-card{
+        display: flex;
+        width: 400px;
+        height: 150px;
+    }
+    .contact-info-right{
+        width: 60%;
+        height: 600px;
+    }
+    .contact-us{
+        height: auto;
+    }
+}
+@media (max-width:650px) {
+    .contact-info-right{
+        width: 60%;
+        height: 600px;
+    }
+    .input1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .input1 div{
+        width: 100%;
+    }
+    .contact-info-right{
+        width: 60%;
+        height: 600px;
+    }
+      .info-card{
+        display: flex;
+        width: 350px;
+        height: 150px;
+    }
+    .icon{
+        
+    }
+    .contact-us{
+        height: auto;
+    }
+}
