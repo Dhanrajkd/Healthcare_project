@@ -14,7 +14,6 @@ const Items = ({image,name,id,category}) => {
           </div>
       </div>
     </div>
-       
   )
 }
 

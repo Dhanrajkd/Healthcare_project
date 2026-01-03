@@ -48,3 +48,18 @@
     justify-content: center;
     gap: 30px;
 }
+@media (max-width:1100px){
+    .img-container{
+    grid-template-columns: repeat(2,350px);
+}
+}
+@media (max-width:900px){
+    .img-container{
+         grid-template-columns: repeat(2,300px);
+    }
+}
+@media (max-width:650px){
+    .img-container{
+         grid-template-columns: 300px;
+    }
+}
