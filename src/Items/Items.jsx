@@ -2,6 +2,7 @@ import React from 'react'
 import '../Items/Items.css'
 import { Link } from 'react-router-dom'
 const Items = ({image,name,id,category}) => {
+  console.log(image)
   return (
     <div className='items'>
       
