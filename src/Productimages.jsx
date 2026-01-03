@@ -5,7 +5,6 @@ import Items from './Items/Items'
 
 const Productimages = () => {
   const {products}=useContext(Listcomponents)
-  const BASE_URL = "https://healthcare-project-backend-t5mf.onrender.com";
   return (
     <div className='product-images'>
         <div className='images-breadcrum'>
